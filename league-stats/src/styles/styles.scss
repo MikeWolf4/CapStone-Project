@@ -1,0 +1,29 @@
+@import "./partials/Header";
+@import "./partials/HomePage";
+@import "./partials/LineCharts";
+@import "./partials/PlayerCard";
+@import "./partials/LoadingBar";
+
+.buttons {
+  &__links {
+    text-decoration: none;
+    color: hsl(0, 0%, 50%);
+  }
+}
+html {
+  background-image: url("../assets/riot_img/Aatrox_7.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topstats__container {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1440px) {
+    flex-direction: row;
+  }
+}
