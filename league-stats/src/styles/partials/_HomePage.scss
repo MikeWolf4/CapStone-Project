@@ -2,7 +2,7 @@
   &__container {
     display: flex;
     flex-direction: column;
-    height: fill;
+    height: 1200px;
     width: fill;
     background: #512888;
     @media (min-width: 768px) {
@@ -107,6 +107,26 @@
     margin-right: 2px;
     border-radius: 0;
     border: none;
+  }
+}
+.event__container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto 50px auto;
+  width: 100%;
+  //height: 700px;
+  background: #6a2eb8;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.75);
+  @media (min-width: 768px) {
+    width: 500px;
+  }
+  @media (min-width: 1440px) {
+    width: 500px;
   }
 }
 
