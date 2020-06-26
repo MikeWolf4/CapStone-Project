@@ -331,42 +331,48 @@ class BarStats extends Component {
     return (
       <div className="playercard__container2">
         <p className="bar-title"> Overall Averages</p>
-        <div className="bar-container">
-          <div className="test-bar">
-            <Bar data={this.state.gold} width={110} options={optionsGold} />
-            <p className="bar-goal"> 500 or Higher</p>
-          </div>
-          <div className="test-bar">
-            <Bar data={this.state.cs} width={105} options={optionsCs} />
-            <p className="bar-goal"> 7 or Higher</p>
-          </div>
-          <div className="test-bar">
-            <Bar data={this.state.objDamage} width={140} options={optionsObj} />
-            <p className="bar-goal"> 700 or Higher</p>
-          </div>
-          <div className="test-bar">
-            <Bar
-              data={this.state.ChampDamage}
-              width={150}
-              options={optionsChamp}
-            />
-            <p className="bar-goal"> 1000 or Higher</p>
-          </div>
-          <div className="test-bar">
-            <Bar
-              data={this.state.killparticipation}
-              width={120}
-              options={optionsKpa}
-            />
-            <p className="bar-goal"> 50% or Higher</p>
-          </div>
-          <div className="test-bar">
-            <Bar
-              data={this.state.visionScore}
-              width={110}
-              options={optionsVision}
-            />
-            <p className="bar-goal"> 50 or Higher</p>
+        <div className="playercard__container3">
+          <div className="bar-container">
+            <div className="test-bar">
+              <Bar data={this.state.gold} width={110} options={optionsGold} />
+              <p className="bar-goal"> 500 or Higher</p>
+            </div>
+            <div className="test-bar">
+              <Bar data={this.state.cs} width={105} options={optionsCs} />
+              <p className="bar-goal"> 7 or Higher</p>
+            </div>
+            <div className="test-bar">
+              <Bar
+                data={this.state.objDamage}
+                width={140}
+                options={optionsObj}
+              />
+              <p className="bar-goal"> 700 or Higher</p>
+            </div>
+            <div className="test-bar">
+              <Bar
+                data={this.state.ChampDamage}
+                width={155}
+                options={optionsChamp}
+              />
+              <p className="bar-goal"> 1000 or Higher</p>
+            </div>
+            <div className="test-bar">
+              <Bar
+                data={this.state.killparticipation}
+                width={120}
+                options={optionsKpa}
+              />
+              <p className="bar-goal"> 50% or Higher</p>
+            </div>
+            <div className="test-bar">
+              <Bar
+                data={this.state.visionScore}
+                width={110}
+                options={optionsVision}
+              />
+              <p className="bar-goal"> 50 or Higher</p>
+            </div>
           </div>
         </div>
       </div>
