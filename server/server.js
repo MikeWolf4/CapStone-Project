@@ -12,7 +12,7 @@ app.use(express.json(), function (req, res, next) {
 });
 
 // needs to be refreshed every 24 hours
-const apikey = "RGAPI-08796211-37a9-47eb-a753-a96a5d35f7e0";
+const apikey = "RGAPI-37ca9cad-d586-4920-94c8-c915063356da";
 let region = "na1";
 
 let userData = {};
